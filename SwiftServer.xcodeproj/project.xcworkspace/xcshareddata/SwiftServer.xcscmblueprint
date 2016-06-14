@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "615FD99B652E80AC2E813EEEE7964BA10A9886D5" : 0,
+    "6F1260245BD69EFA9A05D126763C86280510C6E1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DE7E560F-0E36-426B-84F9-0CA97FADD58C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "615FD99B652E80AC2E813EEEE7964BA10A9886D5" : "SwiftServer\/Packages\/PerfectThread-0.4.0\/",
+    "6F1260245BD69EFA9A05D126763C86280510C6E1" : "SwiftServer\/Packages\/PerfectNet-0.8.0\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftServer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftServer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-Thread.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "615FD99B652E80AC2E813EEEE7964BA10A9886D5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-Net.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F1260245BD69EFA9A05D126763C86280510C6E1"
+    }
+  ]
+}
