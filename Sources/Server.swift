@@ -57,20 +57,17 @@ class Server
     {
         Routing.Routes["/"] = {request, response in
             
-            let responseDictionary = ["message" : "Hello World",
-                                      "statusCode" : 200]
+            RootEndpoint.handleRequest(request: request, response: response)
+        }
+        
+        Routing.Routes["/ping"] = {request, response in
             
-            response.appendBody(string: JSONParser.jsonFor(dictionary:responseDictionary)!)
-            response.requestCompleted()
+            PingEndpoint.handleRequest(request: request, response: response)
         }
         
         Routing.Routes["/error"] = {request, response in
             
-            let responseDictionary = ["error" : "Internal server error",
-                                      "statusCode" : 500]
-            
-            response.appendBody(string: JSONParser.jsonFor(dictionary:responseDictionary)!)
-            response.requestCompleted()
+            ErrorEndpoint.handleRequest(request: request, response: response)
         }
     }
 }
