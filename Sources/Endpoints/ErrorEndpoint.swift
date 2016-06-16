@@ -12,10 +12,11 @@ class ErrorEndpoint
 {
     class func handleRequest(request: WebRequest, response: WebResponse)
     {
-        let responseDictionary = ["error" : "Internal server error",
-                                  "statusCode" : 500]
+        let errorResponse = BaseResponse()
+        errorResponse.statusCode = 500
+        errorResponse.message = "Internal server error"
         
-        response.appendBody(string: JSONParser.jsonFor(dictionary:responseDictionary)!)
+        response.appendBody(string: errorResponse.jsonRepresentation())
         response.requestCompleted()
     }
 }

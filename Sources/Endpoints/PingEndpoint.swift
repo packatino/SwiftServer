@@ -12,10 +12,11 @@ class PingEndpoint
 {
     class func handleRequest(request: WebRequest, response: WebResponse)
     {
-        let responseDictionary = ["message" : "pong",
-                                  "statusCode" : 200]
+        let pingResponse = BaseResponse()
+        pingResponse.statusCode = 200
+        pingResponse.message = "pong"
         
-        response.appendBody(string: JSONParser.jsonFor(dictionary:responseDictionary)!)
+        response.appendBody(string: pingResponse.jsonRepresentation())
         response.requestCompleted()
     }
 }

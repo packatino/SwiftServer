@@ -11,6 +11,7 @@
 		E1CD136C1D127980009244C9 /* PingEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CD136B1D127980009244C9 /* PingEndpoint.swift */; };
 		E1CD136E1D127B54009244C9 /* RootEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CD136D1D127B54009244C9 /* RootEndpoint.swift */; };
 		E1CD13701D127BA7009244C9 /* ErrorEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CD136F1D127BA7009244C9 /* ErrorEndpoint.swift */; };
+		E1CD13721D1281EA009244C9 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CD13711D1281EA009244C9 /* BaseResponse.swift */; };
 		_LinkFileRef_PerfectLib_via_SwiftServer /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
 		_LinkFileRef_PerfectNet_via_PerfectLib /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
 		_LinkFileRef_PerfectNet_via_SwiftServer /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
@@ -83,6 +84,7 @@
 		E1CD136B1D127980009244C9 /* PingEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingEndpoint.swift; sourceTree = "<group>"; };
 		E1CD136D1D127B54009244C9 /* RootEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootEndpoint.swift; sourceTree = "<group>"; };
 		E1CD136F1D127BA7009244C9 /* ErrorEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorEndpoint.swift; sourceTree = "<group>"; };
+		E1CD13711D1281EA009244C9 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/PerfectLib-0.34.0/Sources/PerfectLib/Bytes.swift" /* Bytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bytes.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/PerfectLib-0.34.0/Sources/PerfectLib/Dir.swift" /* Dir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dir.swift; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 				__PBXFileRef_Sources/main.swift /* main.swift */,
 				E1923D8E1D0FE6A0001625BF /* Server.swift */,
 				E1CD136A1D127911009244C9 /* Endpoints */,
+				E1CD13711D1281EA009244C9 /* BaseResponse.swift */,
 				__PBXFileRef_Sources/JSONParser.swift /* JSONParser.swift */,
 			);
 			name = SwiftServer;
@@ -461,6 +464,7 @@
 				__src_cc_ref_Sources/JSONParser.swift /* JSONParser.swift in Sources */,
 				E1923D8F1D0FE6A0001625BF /* Server.swift in Sources */,
 				E1CD136E1D127B54009244C9 /* RootEndpoint.swift in Sources */,
+				E1CD13721D1281EA009244C9 /* BaseResponse.swift in Sources */,
 				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
 				E1CD13701D127BA7009244C9 /* ErrorEndpoint.swift in Sources */,
 			);

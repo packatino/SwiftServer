@@ -12,10 +12,11 @@ class RootEndpoint
 {
     class func handleRequest(request: WebRequest, response: WebResponse)
     {
-        let responseDictionary = ["message" : "Hello World",
-                                  "statusCode" : 200]
+        let rootResponse = BaseResponse()
+        rootResponse.statusCode = 200
+        rootResponse.message = "Hello World"
         
-        response.appendBody(string: JSONParser.jsonFor(dictionary:responseDictionary)!)
+        response.appendBody(string: rootResponse.jsonRepresentation())
         response.requestCompleted()
     }
 }
